@@ -22,20 +22,6 @@
 
 ## Usage
 
-Add a todo 
-
-```
-cargo run -- add "todo description"
-```
-
-Complete a todo.
-
-```
-cargo run -- done <todo id>
-```
-
-List all todos
-
 ```
 cargo run
 ```

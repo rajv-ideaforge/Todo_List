@@ -30,7 +30,6 @@ pub async fn run(){
     .await;
     let app = Router::new()
         .route("/", get(|| async { "Hello, Rust!" }))
-        .route("/add-todo", post(handlers::add_todo))
         .route("/add-todos", post(handlers::add_todos))
         .route("/todos", get(handlers::get_all_todos))
         .route("/todo/:title", get(handlers::get_one_todo))

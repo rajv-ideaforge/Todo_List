@@ -5,23 +5,11 @@
 1. Declare the database URL
 
     ```
-    export DATABASE_URL="postgres://postgres:password@localhost/todos"
-    ```
-
-2. Create the database.
-
-    ```
-    $ sqlx db create
-    ```
-
-3. Run sql migrations
-
-    ```
-    $ sqlx migrate run
+    export DATABASE_URL="postgres://postgres:password@localhost:5573/todos"
     ```
 
 ## Usage
 
 ```
-cargo run
+cargo run or cargo watch -x run
 ```

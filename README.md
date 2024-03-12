@@ -8,7 +8,7 @@
     export DATABASE_URL="postgres://postgres:password@localhost:5573/todos"
     ```
 
-## Usage
+## Steps to run the project
 
 ```
 cargo run or cargo watch -x run
